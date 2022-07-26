@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>background video </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+.container-fluid 
+{
+  position: relative;
+  color: white;
+}
+.text-box 
+{
+  position: absolute;
+  top: 80px;
+  left:20px;
+  bottom:80px;
+  color:Yellow;
+}
+
+#myVideo 
+{
+  position: fixed;
+  min-width: 100%; 
+  	
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mywebsite</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Kush</a></li>
+      <li><a href="#">Manav</a></li>
+      <li><a href="#">Bantu</a></li>
+      <li><a href="#">Jevin</a></li>
+    </ul> 	
+  </div>
+</nav>
+<div class="container-fluid">
+	<video  autoplay muted loop id="myVideo" >
+		<source src="sunset.mp4" type="video/mp4">
+	</video>
+</div>
+<div class="text-box">
+<h1>My Name is Kush.This Is The Video of Sunset.</h1>
+</div>
+
+</body>
+</html>
